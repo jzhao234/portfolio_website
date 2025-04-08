@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@theme { 
+  --color-black: [black];
+  --font-sans: 'Geist', sans-serif;
+}
+
+@layer components {
+  .main_div{
+    @apply m-10 p-3 border-1 border-[#9DCAEB]/35 rounded-lg bg-[#0f0f10]
+  }
+  .aboutMeButtons{
+    @apply m-2 p-2 bg-[#171718] rounded-lg
+  }
+  .technologies{
+    @apply m-2 p-2 bg-[#0d0c0d] rounded-xl flex items-center
+  }
+  .logo{
+    @apply mr-2 p-2 bg-[#171718] rounded-xl fill-current text-sky-400
+  }
+  .version{
+    @apply text-gray-300 text-[0.5rem]
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-[#0d0c0d] text-white
+  }
+}
