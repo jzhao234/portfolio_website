@@ -12,14 +12,24 @@
   .aboutMeButtons{
     @apply m-2 p-2 bg-[#171718] rounded-lg
   }
-  .technologies{
-    @apply m-2 p-2 bg-[#0d0c0d] rounded-xl flex items-center
+  .contactMeLogo{
+    @apply mr-2 p-2 bg-[#171718] rounded-xl fill-current text-sky-400 h-8 w-8
   }
-  .logo{
-    @apply mr-2 p-2 bg-[#171718] rounded-xl fill-current text-sky-400
+  /* Technologies Section */
+  .technologies{
+    @apply m-2 p-2 bg-[#0d0c0d] rounded-xl flex justify-between items-center space-x-8
+  }
+  .techFormatting{
+    @apply flex items-center space-x-2 px-1
+  }
+  .techLogo{
+    @apply mr-2 p-2 bg-[#171718] rounded-xl fill-current text-sky-400 h-13 w-13
   }
   .version{
-    @apply text-gray-300 text-[0.5rem]
+    @apply text-gray-300 text-[0.6rem]
+  }
+  .linkIcon{
+    @apply p-2 fill-current text-sky-400 h-9 w-9
   }
 }
 
